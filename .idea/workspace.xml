@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cdcb67a-a8ba-4e7e-9457-bead5542b91a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewCreditCard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreditCardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MoneyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-    </list>
+    <list default="true" id="5cdcb67a-a8ba-4e7e-9457-bead5542b91a" name="Changes" comment="new commit because needed to be changed a lot (errors)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Vedika365/Part2-of-Project-.git",
+    "accountId": "a53e5c31-4da0-454b-b0ca-0bc93cd2d403"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -55,7 +52,20 @@
       <option name="presentableId" value="Default" />
       <updated>1733541144536</updated>
     </task>
+    <task id="LOCAL-00001" summary="new commit because needed to be changed a lot (errors)">
+      <option name="closed" value="true" />
+      <created>1733541749927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733541749927</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new commit because needed to be changed a lot (errors)" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit because needed to be changed a lot (errors)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
