@@ -22,13 +22,13 @@ public class Address {
          @param zipCode Describes the zip code.
          */
         public Address(String road, String town, String st,
-                       String zipCode)
-        {
+                       String zipCode) {
+
+            street = road;
+            city = town;
+            state = st;
+            zip = zipCode;
         }
-        street = road;
-        city = town;
-        state = st;
-        zip = zipCode;
         /**
          */
         //The toString method

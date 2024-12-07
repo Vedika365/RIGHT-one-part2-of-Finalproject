@@ -1,3 +1,8 @@
+
+/**
+ This program demonstrates the CreditCard class.
+ */
+
 public class CreditCardDemo {
 
 
@@ -14,8 +19,7 @@ public class CreditCardDemo {
                 new Address("237J Harvey Hall",
                         "Menomonie", "WI", "54751"));
 // Create an instance of the CreditCard class.
-        CreditCard visa = new CreditCard(owner,
-                CREDIT_LIMIT);
+        CreditCard visa = new CreditCard(owner, CREDIT_LIMIT);
 // Display the credit card information.
         System.out.println(visa.getPersonals());
         System.out.println("Balance: " + visa.getBalance());
@@ -68,4 +72,4 @@ public class CreditCardDemo {
 
 
 
-}
+

@@ -2,41 +2,45 @@
 public class Money {
 
     /**
-     This class represents nonnegative amounts of money.
+     * This class represents nonnegative amounts of money.
      */
 
-        // The number of dollars
-        private long dollars;
-        // The number of cents
-        private long cents;
-        /**
-         Constructor
-         @param amount The amount in decimal format.
-         */
-        public Money(double amount)
-        {
-            if (amount < 0)
-            {
-                System.out.println("Error: Negative amounts " +
-                        "of money are not allowed.");
-                System.exit(0);
-            }
-            else
-            {
-                long allCents = Math.round(amount * 100);
-                dollars = allCents / 100;
-                cents = allCents % 100;
-            }
+    // The number of dollars
+    private long dollars;
+    // The number of cents
+    private long cents;
+
+    /**
+     * Constructor
+     *
+     * @param amount The amount in decimal format.
+     */
+    public Money(double amount) {
+        if (amount < 0) {
+            System.out.println("Error: Negative amounts " +
+                    "of money are not allowed.");
+            System.exit(0);
+        } else {
+            long allCents = Math.round(amount * 100);
+            dollars = allCents / 100;
+            cents = allCents % 100;
         }
-// ADD LINES FOR TASK #1 HERE
+    }
+
+    // ADD LINES FOR TASK #1 HERE
 // Document and write a copy constructor
+    public Money(Money other) {
+        this.dollars = other.dollars;    //copy all content of one object to another    //other is a reference variable
+        this.cents = other.cents;
+    }
+        //this is new object being constructed and other is the object i copy from
         /**
          */
         //The add method
         //@param otherAmount The amount of money to add.
-   // @return The sum of the calling Money object
-      //  and the parameter Money object.
-        public Money add(Money otherAmount)
+        // @return The sum of the calling Money object
+        //  and the parameter Money object.
+        public Money add (Money otherAmount)
         {
             Money sum = new Money(0);
             sum.cents = this.cents + otherAmount.cents;
@@ -49,15 +53,14 @@ public class Money {
         }
         /**
          */
-       // The subtract method
-       /// @param amount The amount of money to subtract.
-   // @return The difference between the calling Money
-      //  object and the parameter Money object.
+        // The subtract method
+        /// @param amount The amount of money to subtract.
+        // @return The difference between the calling Money
+        //  object and the parameter Money object.
         public Money subtract (Money amount)
         {
             Money difference = new Money(0);
-            if (this.cents < amount.cents)
-            {
+            if (this.cents < amount.cents) {
                 this.dollars = this.dollars - 1;
                 this.cents = this.cents + 100;
             }
@@ -78,10 +81,10 @@ public class Money {
          object are more than the dollars and the
          cents of the parameter object.
          */
-        public int compareTo(Money amount)
+        public int compareTo (Money amount)
         {
             int value;
-            if(this.dollars < amount.dollars)
+            if (this.dollars < amount.dollars)
                 value = -1;
             else if (this.dollars > amount.dollars)
                 value = 1;
@@ -95,7 +98,15 @@ public class Money {
         }
 // ADD LINES FOR TASK #2 HERE
 // Document and write an equals method
+    public boolean equals(Money obj){
+            Money other = (Money) obj;
+            return (this.dollars == other.dollars && this.cents == other.cents);
+        }
+
 // Document and write a toString method
+    public String toString (){
+            return String.format("$%d.%02d", dollars, cents);
+    }
     }
 
 

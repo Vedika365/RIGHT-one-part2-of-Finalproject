@@ -3,6 +3,14 @@
 public class CreditCard{
     public static void main(String[] args) {
 
+        Person owner;
+        Money balance;
+        Money creditCard;
+
+    }
+         public CreditCard (Person person, Money money){
+         Person owner = person;
+         Money balance;
 
 
         }
