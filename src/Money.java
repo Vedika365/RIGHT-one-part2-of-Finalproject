@@ -33,6 +33,7 @@ public class Money {
         this.dollars = other.dollars;    //copy all content of one object to another    //other is a reference variable
         this.cents = other.cents;
     }
+
         //this is new object being constructed and other is the object i copy from
         /**
          */
@@ -99,8 +100,12 @@ public class Money {
 // ADD LINES FOR TASK #2 HERE
 // Document and write an equals method
     public boolean equals(Money obj){
-            Money other = (Money) obj;
-            return (this.dollars == other.dollars && this.cents == other.cents);
+            if (this==obj) {
+                return true;
+            }
+            if (obj==null) return false;
+            Money money = (Money)obj;
+            return dollars == money.dollars && cents == money.cents;
         }
 
 // Document and write a toString method

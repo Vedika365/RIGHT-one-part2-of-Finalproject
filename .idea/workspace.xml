@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cdcb67a-a8ba-4e7e-9457-bead5542b91a" name="Changes" comment="new commit because needed to be changed a lot (errors)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreditCardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreditCardDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Money.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +45,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CreditCard.executor": "Run",
-    "Application.CreditCardDemo.executor": "Run",
-    "Application.MoneyDemo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Vedika/IdeaProjects/NewCreditCard/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CreditCard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreditCardDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoneyDemo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Vedika/IdeaProjects/NewCreditCard/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733549061653</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new commit because needed to be changed a lot (errors)">
+      <option name="closed" value="true" />
+      <created>1733551315812</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733551315812</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
