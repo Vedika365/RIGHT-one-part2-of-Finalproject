@@ -24,7 +24,7 @@ public class CreditCardDemo {
         System.out.println(visa.getPersonals());
         System.out.println("Balance: " + visa.getBalance());
         System.out.println("Credit Limit: " +
-                visa.getCreditLimit());
+                visa.getCreditCardLimit());
         System.out.println();   // To print a new line
 // Attempt to charge the first amount and
 // display the results.
