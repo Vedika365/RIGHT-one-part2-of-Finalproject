@@ -27,8 +27,7 @@ public class Money {
         }
     }
 
-    // ADD LINES FOR TASK #1 HERE
-// Document and write a copy constructor
+    //Task1 Copy Constructor
     public Money(Money other) {
         this.dollars = other.dollars;    //copy all content of one object to another    //other is a reference variable
         this.cents = other.cents;
@@ -87,7 +86,7 @@ public class Money {
      * cents of the parameter object.
      */
 
-    //the comparre to method
+    //the Compare To method
     public int compareTo(Money amount) {
 
         if (this.dollars < amount.dollars)
@@ -95,7 +94,7 @@ public class Money {
         else if (this.dollars > amount.dollars) {
             return 1;
         } else if (this.cents < amount.cents) {
-            return -1
+            return -1;
         } else if (this.cents > amount.cents)
             return 1;
         else {
@@ -105,7 +104,7 @@ public class Money {
 
 
     // ADD LINES FOR TASK #2 HERE
-// Document and write an equals method
+    // Document and write an equals method
     public boolean equals(Money other) {
         return this.dollars == other.dollars && this.cents == other.cents;
     }

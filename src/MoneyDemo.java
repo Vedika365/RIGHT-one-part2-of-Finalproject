@@ -64,9 +64,6 @@ public class MoneyDemo {
             }
         }
     }
-/**
- This program demonstrates the CreditCard class.
- */
 
 
 
